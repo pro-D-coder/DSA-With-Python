@@ -12,6 +12,9 @@ def small_odd_sum(number):
         if i % 2 != 0:
             sum += i*i
     return sum
+    '''OR
+    sum([i*i for i in range(int(input("Enter Number: ")),2,-1)  if i % 2 != 0])
+    '''
 
 
 if __name__ == '__main__':
