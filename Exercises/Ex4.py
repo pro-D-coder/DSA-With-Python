@@ -13,6 +13,9 @@ def small_sum(number):
         sum = sum + (counter*counter)
         counter -= 1
     return sum
+    """OR
+    sum([intx*intx for intx in range(int(input("Enter Number: ")),2,-1)]) 
+    """
 
 
 if __name__ == '__main__':
